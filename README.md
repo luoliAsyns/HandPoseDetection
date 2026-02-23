@@ -63,10 +63,10 @@ python main.py --video_path "你的视频路径.mp4"
 
 ## 🎨 效果展示
 ### 实时检测界面
-![实时检测](https://example.com/real_time_detection.png)
+![实时检测](https://github.com/luoliAsyns/HandPoseDetection/blob/main/demoPrintScreen.jpg)
 - 显示手掌骨骼线、整体姿态、姿态评分、各手指弯曲角度
 
 ### 多视角可视化界面
-![多视角视图](https://example.com/multi_view.png)
+![多视角视图](https://github.com/luoliAsyns/HandPoseDetection/blob/main/multi-view.jpg)
 - 4个视角的3D骨骼线展示
 
