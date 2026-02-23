@@ -176,14 +176,14 @@ class MultiViewVisualizer:
         """生成骨骼线的四个视角视图"""
         # 创建2x2的子图布局
         self.fig, self.axs = plt.subplots(2, 2, figsize=(12, 10))
-        self.fig.suptitle('手掌骨骼多视角视图', fontsize=16)
+        self.fig.suptitle('multi-view', fontsize=16)
         
         # 定义四个视角的参数
         views = [
-            ('正视图', (90, 0), self.axs[0, 0]),   # 正视图 (仰角90°, 方位角0°)
-            ('左视图', (0, 90), self.axs[0, 1]),    # 左视图 (仰角0°, 方位角90°)
-            ('右视图', (0, -90), self.axs[1, 0]),   # 右视图 (仰角0°, 方位角-90°)
-            ('俯视图', (0, 0), self.axs[1, 1])      # 俯视图 (仰角0°, 方位角0°)
+            ('front', (90, 0), self.axs[0, 0]),   # 正视图 (仰角90°, 方位角0°)
+            ('left', (0, 90), self.axs[0, 1]),    # 左视图 (仰角0°, 方位角90°)
+            ('right', (0, -90), self.axs[1, 0]),   # 右视图 (仰角0°, 方位角-90°)
+            ('up', (0, 0), self.axs[1, 1])      # 俯视图 (仰角0°, 方位角0°)
         ]
         
         # 手掌骨骼连接关系
